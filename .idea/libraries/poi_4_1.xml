@@ -1,17 +1,12 @@
 <component name="libraryTable">
   <library name="poi-4.1">
     <CLASSES>
-      <root url="file://$USER_HOME$/Desktop/poi-4.1.0" />
-      <root url="file://$USER_HOME$/Desktop/xmlbeans-3.1.0/lib" />
+      <root url="file://$PROJECT_DIR$/../ReadExcel_Libraries/poi-4.1.0" />
     </CLASSES>
     <JAVADOC>
-      <root url="file://$USER_HOME$/Desktop/poi-4.1.0/docs/apidocs/dev" />
+      <root url="file://$PROJECT_DIR$/../ReadExcel_Libraries/poi-4.1.0/docs/apidocs/dev" />
     </JAVADOC>
-    <SOURCES>
-      <root url="file://$USER_HOME$/Desktop/xmlbeans-3.1.0/lib" />
-    </SOURCES>
-    <jarDirectory url="file://$USER_HOME$/Desktop/poi-4.1.0" recursive="false" />
-    <jarDirectory url="file://$USER_HOME$/Desktop/xmlbeans-3.1.0/lib" recursive="false" />
-    <jarDirectory url="file://$USER_HOME$/Desktop/xmlbeans-3.1.0/lib" recursive="false" type="SOURCES" />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../ReadExcel_Libraries/poi-4.1.0" recursive="false" />
   </library>
 </component>
