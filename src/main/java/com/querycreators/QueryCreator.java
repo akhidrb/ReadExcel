@@ -19,14 +19,18 @@ public abstract class QueryCreator {
   private int valueTypesRowNumber;
 
   QueryCreator(Sheet sheet, int startingRow) {
-    this.startinRow = startingRow;
-    columnNamesRowNumber = startingRow + 1;
-    valuesRowNumber = startingRow + 2;
-    valueTypesRowNumber = startingRow + 3;
+    initializeRowNumbers(startingRow);
     createQueryPropertiesFromSheet(sheet);
   }
 
   public abstract String formQuery();
+
+  private void initializeRowNumbers(int startingRow) {
+    this.startinRow = startingRow;
+    columnNamesRowNumber = startingRow + 1;
+    valuesRowNumber = startingRow + 2;
+    valueTypesRowNumber = startingRow + 3;
+  }
 
   private void createQueryPropertiesFromSheet(Sheet sheet) {
     tableName = getTableName(sheet);
@@ -36,7 +40,7 @@ public abstract class QueryCreator {
 
   private String getTableName(Sheet sheet) {
     Row row = sheet.getRow(startinRow);
-    Cell cell = row.getCell(0);
+    Cell cell = row.getCell(1);
     return cell.toString();
   }
 
@@ -71,22 +75,24 @@ public abstract class QueryCreator {
   }
 
   private String convertValueByType(String value, String valueType) {
-    Object valueByType;
+    if (value.equals("null")) {
+      return null;
+    }
+    Object valueByType = checkValueType(value, valueType);
+    return valueByType.toString();
+  }
+
+  private Object checkValueType(String value, String valueType) {
     switch (valueType) {
       case "String":
       case "Date":
-        valueByType = value;
-        break;
+        return value.replace("’", "'");
       case "Long":
-        valueByType = (long) Float.parseFloat(value);
-        break;
+        return (long) Float.parseFloat(value);
       case "Float":
-        valueByType = Float.parseFloat(value);
-        break;
-      default:
-        valueByType = value;
+        return Float.parseFloat(value);
     }
-    return valueByType.toString();
+    return null;
   }
 
 

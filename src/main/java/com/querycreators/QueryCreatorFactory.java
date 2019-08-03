@@ -8,18 +8,19 @@ public class QueryCreatorFactory {
 
   public static QueryCreator getQueryCreator(Sheet sheet, int startingRowNumber) {
     QueryCreator queryCreator = null;
-    String queryCreatorType = getQueryCreatorType(sheet, startingRowNumber);
+    String queryCreatorType = getQueryCreatorName(sheet, startingRowNumber);
     switch (queryCreatorType.toLowerCase()) {
-      case "insertion":
+      case "insert":
         queryCreator = new InsertionQueryCreator(sheet, startingRowNumber);
         break;
     }
     return queryCreator;
   }
 
-  private static String getQueryCreatorType(Sheet sheet, int startingRowNumber) {
+
+  private static String getQueryCreatorName(Sheet sheet, int startingRowNumber) {
     Row row = sheet.getRow(startingRowNumber);
-    Cell cell = row.getCell(1);
+    Cell cell = row.getCell(0);
     return cell.toString();
   }
 

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="464611f8-bbdf-4cd6-b79f-df8594a921f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SheetQueryForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/querycreators/InsertionQueryCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/querycreators/InsertionQueryCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreatorFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/.~lock.Fakha.xlsx#" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/.~lock.Fakha.xlsx#" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Fakha.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fakha.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com.querycreators/ICommonKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.querycreators/ITestKeys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com.querycreators/QueryCreatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.querycreators/QueryCreatorTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Fakha.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Fakha.xlsx" afterDir="false" />
     </list>
@@ -69,7 +68,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="14" />
+          <entry key="java" value="19" />
           <entry key="xlsx#" value="1" />
           <entry key="xml" value="3" />
         </counts>
@@ -77,22 +76,22 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="19" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3940" />
-          <entry key="txt" value="135" />
+          <entry key="java" value="4289" />
+          <entry key="txt" value="251" />
           <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3940" />
-          <entry key="PLAIN_TEXT" value="135" />
+          <entry key="JAVA" value="4289" />
+          <entry key="PLAIN_TEXT" value="251" />
           <entry key="XML" value="19" />
         </counts>
       </usages-collector>
@@ -100,53 +99,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com.querycreators/QueryCreatorTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="159">
+              <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/SheetQueryForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreatorFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/querycreators/InsertionQueryCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,16 +114,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            <state relative-caret-position="249">
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreatorFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
-                <element signature="method#getTableName#0;class#QueryCreator#0" />
-                <element signature="method#getValuesByType#0;class#QueryCreator#0" />
-                <element signature="method#getRowValuesInList#0;class#QueryCreator#0" />
-                <element signature="method#addCellToList#0;class#QueryCreator#0" />
-                <element signature="method#convertValuesByType#0;class#QueryCreator#0" />
-                <element signature="method#convertValueByType#0;class#QueryCreator#0" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com.querycreators/ITestKeys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -199,16 +171,17 @@
         <option value="$PROJECT_DIR$/src/main/java/querycreators/InsertionQueryCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ExcelSheetReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/InsertionQueryCreator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com.querycreators/ICommonKeys.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ReadExcel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ExcelSheetReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/com.querycreators/InsertionQueryCreatorTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/querycreators/InsertionQueryCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/SheetQueryForm.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com.querycreators/ICommonKeys.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com.querycreators/ITestKeys.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreatorFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/com.querycreators/QueryCreatorTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/SheetQueryForm.java" />
       </list>
     </option>
   </component>
@@ -310,7 +283,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564790285338" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564792345453" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ReadExcel_Libraries/poi-4.1.0/poi-scratchpad-4.1.0.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -399,7 +372,7 @@
       <updated>1564525086071</updated>
       <workItem from="1564525093275" duration="3358000" />
       <workItem from="1564550577759" duration="348000" />
-      <workItem from="1564752321607" duration="17762000" />
+      <workItem from="1564752321607" duration="19840000" />
     </task>
     <task id="LOCAL-00001" summary="create insertion query from sheet&#10;must give value types">
       <created>1564758353646</created>
@@ -415,43 +388,50 @@
       <option name="project" value="LOCAL" />
       <updated>1564787023700</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create SheetQueryForm to take sheet name and form list of queries for whole sheet">
+      <created>1564790342081</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564790342081</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueryCreatorTests_checkCorrectInsertionQueryFormed - 2019.08.03 at 01h 11m 19s.xml">
-      <configuration name="QueryCreatorTests.checkCorrectInsertionQueryFormed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryCreatorTests_checkCorrectInsertionQueryFormed - 2019.08.03 at 01h 28m 25s.xml">
-      <configuration name="QueryCreatorTests.checkCorrectInsertionQueryFormed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryCreatorTests_checkCorrectInsertionQueryFormed - 2019.08.03 at 01h 31m 17s.xml">
-      <configuration name="QueryCreatorTests.checkCorrectInsertionQueryFormed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryCreatorTests_checkCorrectInsertionQueryFormed - 2019.08.03 at 01h 40m 19s.xml">
-      <configuration name="QueryCreatorTests.checkCorrectInsertionQueryFormed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryCreatorTests_checkCorrectInsertionQueryFormed - 2019.08.03 at 01h 40m 27s.xml">
-      <configuration name="QueryCreatorTests.checkCorrectInsertionQueryFormed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryCreatorTests_checkCorrectInsertionQueryFormed - 2019.08.03 at 01h 40m 33s.xml">
-      <configuration name="QueryCreatorTests.checkCorrectInsertionQueryFormed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryCreatorTests_checkCorrectInsertionQueryFormed - 2019.08.03 at 01h 43m 42s.xml">
-      <configuration name="QueryCreatorTests.checkCorrectInsertionQueryFormed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryCreatorTests - 2019.08.03 at 01h 43m 48s.xml">
+    <history-entry file="QueryCreatorTests - 2019.08.03 at 02h 20m 48s.xml">
       <configuration name="QueryCreatorTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryCreatorTests - 2019.08.03 at 01h 43m 57s.xml">
+    <history-entry file="QueryCreatorTests - 2019.08.03 at 02h 21m 03s.xml">
       <configuration name="QueryCreatorTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryCreatorTests - 2019.08.03 at 01h 57m 28s.xml">
+    <history-entry file="QueryCreatorTests - 2019.08.03 at 02h 21m 55s.xml">
+      <configuration name="QueryCreatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryCreatorTests - 2019.08.03 at 02h 22m 26s.xml">
+      <configuration name="QueryCreatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryCreatorTests - 2019.08.03 at 02h 25m 21s.xml">
+      <configuration name="QueryCreatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryCreatorTests - 2019.08.03 at 02h 26m 42s.xml">
+      <configuration name="QueryCreatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryCreatorTests - 2019.08.03 at 02h 26m 46s.xml">
+      <configuration name="QueryCreatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryCreatorTests - 2019.08.03 at 02h 27m 08s.xml">
+      <configuration name="QueryCreatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryCreatorTests - 2019.08.03 at 02h 28m 50s.xml">
+      <configuration name="QueryCreatorTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryCreatorTests - 2019.08.03 at 02h 31m 55s.xml">
       <configuration name="QueryCreatorTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21468000" />
+    <option name="totallyTimeSpent" value="23546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
@@ -498,7 +478,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="create insertion query from sheet&#10;must give value types" />
     <MESSAGE value="used factory pattern to implement different kinds of queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="used factory pattern to implement different kinds of queries" />
+    <MESSAGE value="create SheetQueryForm to take sheet name and form list of queries for whole sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="create SheetQueryForm to take sheet name and form list of queries for whole sheet" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -526,6 +507,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>value.replace(&quot;’&quot;, &quot;'&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>value.replace(&quot;'&quot;, &quot;'&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>workbook.getSheet(&quot;payment-request&quot;)</expression-string>
         <language-id>JAVA</language-id>
@@ -561,16 +552,6 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>cell.getBooleanCellValue()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cellIterator.next().toString()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
@@ -585,13 +566,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com.querycreators/ICommonKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -616,27 +590,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/SheetQueryForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ExcelSheetReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding>
-            <element signature="method#getTableName#0;class#QueryCreator#0" />
-            <element signature="method#getValuesByType#0;class#QueryCreator#0" />
-            <element signature="method#getRowValuesInList#0;class#QueryCreator#0" />
-            <element signature="method#addCellToList#0;class#QueryCreator#0" />
-            <element signature="method#convertValuesByType#0;class#QueryCreator#0" />
-            <element signature="method#convertValueByType#0;class#QueryCreator#0" />
           </folding>
         </state>
       </provider>
@@ -653,10 +624,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com.querycreators/ITestKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreatorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="360">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -665,22 +650,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com.querycreators/QueryCreatorTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="159">
+          <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/SheetQueryForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
           </folding>
         </state>
       </provider>
