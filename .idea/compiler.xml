@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="readexcel" options="-parameters" />
+      <module name="readexcel" options="" />
     </option>
   </component>
 </project>
