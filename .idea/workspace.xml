@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="464611f8-bbdf-4cd6-b79f-df8594a921f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sheetquerycreator/ITestKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sheetquerycreator/QueryCreatorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="464611f8-bbdf-4cd6-b79f-df8594a921f9" name="Default Changelist" comment="git ignore folders">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ExcelSheetReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheetquerycreator/ExcelSheetReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SheetQueryForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheetquerycreator/SheetQueryForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/querycreators/AlterSequenceQueryCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/querycreators/AlterSequenceQueryCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheetquerycreator/querycreators/AlterSequenceQueryCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/querycreators/DeleteQueryCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/querycreators/DeleteQueryCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheetquerycreator/querycreators/DeleteQueryCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/querycreators/InsertionQueryCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheetquerycreator/querycreators/InsertionQueryCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheetquerycreator/querycreators/QueryCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreatorFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/querycreators/QueryCreatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sheetquerycreator/querycreators/QueryCreatorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/.~lock.Fakha.xlsx#" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/.~lock.Fakha.xlsx#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fakha.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fakha.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.querycreators/ITestKeys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.querycreators/ITestKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sheetquerycreator/ITestKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.querycreators/QueryCreatorTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.querycreators/QueryCreatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sheetquerycreator/QueryCreatorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Fakha.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Fakha.xlsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,14 +80,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="5116" />
-          <entry key="txt" value="387" />
+          <entry key="txt" value="464" />
           <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="5116" />
-          <entry key="PLAIN_TEXT" value="387" />
+          <entry key="PLAIN_TEXT" value="464" />
           <entry key="XML" value="19" />
         </counts>
       </usages-collector>
@@ -144,64 +124,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheetquerycreator/SheetQueryForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheetquerycreator/querycreators/AlterSequenceQueryCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sheetquerycreator/ITestKeys.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sheetquerycreator/QueryCreatorTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sheetquerycreator/querycreators/QueryCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="44" selection-start-column="44" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -356,7 +279,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564829485415" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564830503413" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -485,16 +408,24 @@
       <option name="project" value="LOCAL" />
       <updated>1564795560546</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change package names">
+      <created>1564829466237</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564829466237</updated>
+    </task>
+    <task id="LOCAL-00007" summary="remove intellij package">
+      <created>1564829680564</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564829680564</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueryCreatorTests - 2019.08.03 at 12h 32m 02s.xml">
-      <configuration name="QueryCreatorTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryCreatorTests - 2019.08.03 at 12h 32m 17s.xml">
-      <configuration name="QueryCreatorTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QueryCreatorTests - 2019.08.03 at 12h 32m 56s.xml">
       <configuration name="QueryCreatorTests" configurationId="JUnit" />
     </history-entry>
@@ -519,15 +450,20 @@
     <history-entry file="QueryCreatorTests - 2019.08.03 at 12h 42m 16s.xml">
       <configuration name="QueryCreatorTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QueryCreatorTests_(1) - 2019.08.03 at 12h 50m 14s.xml">
+      <configuration name="QueryCreatorTests (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryCreatorTests - 2019.08.03 at 12h 50m 34s.xml">
+      <configuration name="QueryCreatorTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29857000" />
+    <option name="totallyTimeSpent" value="30882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26093918" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26093918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -543,9 +479,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32901832" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.6260504" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3277311" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3277311" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -571,7 +507,9 @@
     <MESSAGE value="create SheetQueryForm to take sheet name and form list of queries for whole sheet" />
     <MESSAGE value="completed TDD cycle for query creator from excel sheets" />
     <MESSAGE value="completed TDD cycles for All payment request create story queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed TDD cycles for All payment request create story queries" />
+    <MESSAGE value="change package names" />
+    <MESSAGE value="remove intellij package" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove intellij package" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
