@@ -12,7 +12,6 @@ public class ExcelSheetReader {
 
   private static final Logger log = LoggerFactory.getLogger(ExcelSheetReader.class);
 
-
   public Sheet readExcelSheetByName(String name) {
     try {
       File file = new File("src/main/resources/Fakha.xlsx");
