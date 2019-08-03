@@ -6,6 +6,7 @@ import java.util.List;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
+import org.omg.CORBA.IntHolder;
 
 public abstract class QueryCreator {
 
@@ -18,10 +19,16 @@ public abstract class QueryCreator {
   private int valuesRowNumber;
   private int valueTypesRowNumber;
 
-  QueryCreator(Sheet sheet, int startingRow) {
-    initializeRowNumbers(startingRow);
+  QueryCreator(Sheet sheet, IntHolder rowNumber) {
+    initializeRowNumbers(rowNumber.value);
+    moveRowNumberToLastRow(sheet, rowNumber);
     tableName = getTableName(sheet);
     createQueryPropertiesFromSheet(sheet);
+  }
+
+  private void moveRowNumberToLastRow(Sheet sheet, IntHolder rowNumber) {
+    rowNumber.value = (sheet.getRow(columnNamesRowNumber) != null) ? valueTypesRowNumber + 2
+        : rowNumber.value + 2;
   }
 
   public abstract String formQuery();

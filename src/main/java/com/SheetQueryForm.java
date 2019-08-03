@@ -5,6 +5,7 @@ import com.querycreators.QueryCreatorFactory;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.poi.ss.usermodel.Sheet;
+import org.omg.CORBA.IntHolder;
 
 public class SheetQueryForm {
 
@@ -17,16 +18,15 @@ public class SheetQueryForm {
   }
 
   private void formQueries(Sheet sheet) {
-    int startingRowNumber = 0;
+    IntHolder rowNumber = new IntHolder();
     queries = new ArrayList<>();
-    while (startingRowNumber <= sheet.getLastRowNum()) {
-      formQueryByRowNumber(sheet, startingRowNumber);
-      startingRowNumber += 5;
+    while (rowNumber.value <= sheet.getLastRowNum()) {
+      formQueryByRowNumber(sheet, rowNumber);
     }
   }
 
-  private void formQueryByRowNumber(Sheet sheet, int startingRowNumber) {
-    QueryCreator queryCreator = QueryCreatorFactory.getQueryCreator(sheet, startingRowNumber);
+  private void formQueryByRowNumber(Sheet sheet, IntHolder rowNumber) {
+    QueryCreator queryCreator = QueryCreatorFactory.getQueryCreator(sheet, rowNumber);
     queries.add(queryCreator.formQuery());
   }
 

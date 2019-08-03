@@ -2,10 +2,11 @@ package com.querycreators;
 
 import java.util.List;
 import org.apache.poi.ss.usermodel.Sheet;
+import org.omg.CORBA.IntHolder;
 
 public class InsertionQueryCreator extends QueryCreator {
 
-  InsertionQueryCreator(Sheet sheet, int startingRow) {
+  InsertionQueryCreator(Sheet sheet, IntHolder startingRow) {
     super(sheet, startingRow);
   }
 

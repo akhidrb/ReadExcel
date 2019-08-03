@@ -1,10 +1,11 @@
 package com.querycreators;
 
 import org.apache.poi.ss.usermodel.Sheet;
+import org.omg.CORBA.IntHolder;
 
 public class AlterSequenceQueryCreator extends QueryCreator {
 
-  AlterSequenceQueryCreator(Sheet sheet, int startingRow) {
+  AlterSequenceQueryCreator(Sheet sheet, IntHolder startingRow) {
     super(sheet, startingRow);
   }
 

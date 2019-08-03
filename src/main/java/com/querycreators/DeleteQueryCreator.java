@@ -1,10 +1,11 @@
 package com.querycreators;
 
 import org.apache.poi.ss.usermodel.Sheet;
+import org.omg.CORBA.IntHolder;
 
 public class DeleteQueryCreator extends QueryCreator {
 
-  DeleteQueryCreator(Sheet sheet, int startingRow) {
+  DeleteQueryCreator(Sheet sheet, IntHolder startingRow) {
     super(sheet, startingRow);
   }
 
