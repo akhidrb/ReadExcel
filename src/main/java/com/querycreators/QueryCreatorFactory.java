@@ -13,6 +13,12 @@ public class QueryCreatorFactory {
       case "insert":
         queryCreator = new InsertionQueryCreator(sheet, startingRowNumber);
         break;
+      case "delete":
+        queryCreator = new DeleteQueryCreator(sheet, startingRowNumber);
+        break;
+      case "alter-sequence":
+        queryCreator = new AlterSequenceQueryCreator(sheet, startingRowNumber);
+        break;
     }
     return queryCreator;
   }

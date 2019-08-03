@@ -20,6 +20,7 @@ public abstract class QueryCreator {
 
   QueryCreator(Sheet sheet, int startingRow) {
     initializeRowNumbers(startingRow);
+    tableName = getTableName(sheet);
     createQueryPropertiesFromSheet(sheet);
   }
 
@@ -33,9 +34,10 @@ public abstract class QueryCreator {
   }
 
   private void createQueryPropertiesFromSheet(Sheet sheet) {
-    tableName = getTableName(sheet);
-    columnNames = getRowValuesInList(sheet.getRow(columnNamesRowNumber));
-    valuesByType = getValuesByType(sheet);
+    if (sheet.getRow(columnNamesRowNumber) != null) {
+      columnNames = getRowValuesInList(sheet.getRow(columnNamesRowNumber));
+      valuesByType = getValuesByType(sheet);
+    }
   }
 
   private String getTableName(Sheet sheet) {

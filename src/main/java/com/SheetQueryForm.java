@@ -19,7 +19,7 @@ public class SheetQueryForm {
   private void formQueries(Sheet sheet) {
     int startingRowNumber = 0;
     queries = new ArrayList<>();
-    while (startingRowNumber < sheet.getLastRowNum()) {
+    while (startingRowNumber <= sheet.getLastRowNum()) {
       formQueryByRowNumber(sheet, startingRowNumber);
       startingRowNumber += 5;
     }

@@ -31,4 +31,19 @@ public class QueryCreatorTests {
     Assert.assertEquals(ITestKeys.INSERTION_QUERY_WITH_EMPTY_STRING, paymentRequestQueries.get(2));
   }
 
+  @Test
+  public void checkCorrectDeleteQuery() {
+    Assert.assertEquals(ITestKeys.DELETE_QUERY, paymentRequestQueries.get(3));
+  }
+
+  @Test
+  public void checkCorrectDeleteQueryWithWhereClause() {
+    Assert.assertEquals(ITestKeys.DELETE_QUERY_WITH_WHERE_CLAUSE, paymentRequestQueries.get(4));
+  }
+
+  @Test
+  public void checkCorrectAlterSequenceQuery() {
+    Assert.assertEquals(ITestKeys.ALTER_SEQUENCE_QUERY, paymentRequestQueries.get(5));
+  }
+
 }
