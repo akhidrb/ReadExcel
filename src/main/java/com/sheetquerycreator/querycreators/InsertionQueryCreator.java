@@ -1,4 +1,4 @@
-package com.querycreators;
+package com.sheetquerycreator.querycreators;
 
 import java.util.List;
 import org.apache.poi.ss.usermodel.Sheet;

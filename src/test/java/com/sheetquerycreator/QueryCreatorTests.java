@@ -1,6 +1,5 @@
-package com.querycreators;
+package com.sheetquerycreator;
 
-import com.SheetQueryForm;
 import java.util.List;
 import org.junit.Assert;
 import org.junit.Before;

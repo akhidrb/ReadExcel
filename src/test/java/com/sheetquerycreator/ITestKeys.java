@@ -1,4 +1,4 @@
-package com.querycreators;
+package com.sheetquerycreator;
 
 public interface ITestKeys {
 

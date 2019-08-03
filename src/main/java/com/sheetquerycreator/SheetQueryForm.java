@@ -1,7 +1,7 @@
-package com;
+package com.sheetquerycreator;
 
-import com.querycreators.QueryCreator;
-import com.querycreators.QueryCreatorFactory;
+import com.sheetquerycreator.querycreators.QueryCreator;
+import com.sheetquerycreator.querycreators.QueryCreatorFactory;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.poi.ss.usermodel.Sheet;

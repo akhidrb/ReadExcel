@@ -1,4 +1,4 @@
-package com.querycreators;
+package com.sheetquerycreator.querycreators;
 
 import org.apache.poi.ss.usermodel.Sheet;
 import org.omg.CORBA.IntHolder;

@@ -1,4 +1,4 @@
-package com;
+package com.sheetquerycreator;
 
 import java.io.File;
 import java.io.FileInputStream;

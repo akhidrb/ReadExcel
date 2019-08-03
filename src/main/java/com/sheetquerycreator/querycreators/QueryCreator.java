@@ -1,4 +1,4 @@
-package com.querycreators;
+package com.sheetquerycreator.querycreators;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -19,7 +19,7 @@ public abstract class QueryCreator {
   private int valuesRowNumber;
   private int valueTypesRowNumber;
 
-  QueryCreator(Sheet sheet, IntHolder rowNumber) {
+  public QueryCreator(Sheet sheet, IntHolder rowNumber) {
     initializeRowNumbers(rowNumber.value);
     moveRowNumberToLastRow(sheet, rowNumber);
     tableName = getTableName(sheet);
